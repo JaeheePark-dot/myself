@@ -167,8 +167,8 @@ dl.facts dd{font-weight:500}
 .bizcard .nm span{font-size:16px;font-weight:600}
 .bizcard .dot{width:10px;height:10px;border-radius:50%;background:var(--wine);margin-top:6px}
 .bizcard .lines{font-size:14px;line-height:1.75;color:var(--plum-line)}
-.bizcard .kakao{color:var(--wine);font-weight:700;text-decoration:none;border-bottom:1px solid currentColor}
-.bizcard .kakao:hover{color:var(--wine-deep)}
+.bizcard .kakao{display:inline-flex;align-items:center;min-height:40px;margin-top:8px;padding:6px 16px;border-radius:999px;background:var(--plum);color:var(--yellow);font-weight:700;font-size:14px;text-decoration:none;transition:background .2s}
+.bizcard .kakao:hover{background:var(--plum-2);color:var(--yellow)}
 .bizcard .kakao:focus-visible{outline:2px solid var(--wine);outline-offset:2px}
 @media (prefers-reduced-motion:no-preference){.bizcard{transition:transform .4s}.desk:hover .bizcard{transform:rotate(0)}}
 @media (max-width:760px){dl.facts{grid-template-columns:84px minmax(0,1fr);font-size:15px}.bizcard .lines{font-size:13px}}
